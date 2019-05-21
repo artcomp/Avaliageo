@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Avaliar Base de Dados Codificadas</title>
+	<link href=" {{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+	<link href=" {{ url_for( 'static', filename='css/font-awesome.min.css') }}" rel="stylesheet">
+
+	<link href="{{ url_for( 'static', filename='css/pe-icons.css' ) }} " rel="stylesheet">
+
+	<link href=" {{ url_for( 'static', filename='css/prettyPhoto.css' ) }} " rel="stylesheet">
+
+	<link href="{{ url_for( 'static', filename='css/animate.css' ) }} " rel="stylesheet">
+
+	<link href="{{ url_for( 'static', filename='css/style.css') }} " rel="stylesheet">
+
+	<script src="{{ url_for( 'static', filename='js/jquery.js') }} "></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->       
+<link rel="shortcut icon" href="{{ url_for( 'static', filename='images/ico/favicon.ico' ) }} ">
+
+<link rel="apple-touch-icon" sizes="144x144" href="{{ url_for( 'static', filename='images/ico/apple-touch-icon-144x144.png' ) }} ">
+
+<link rel="apple-touch-icon" sizes="114x114" href="{{ url_for( 'static', filename='images/ico/apple-touch-icon-114x114.png' ) }}">
+
+<link rel="apple-touch-icon" sizes="72x72" href="{{ url_for( 'static', filename='images/ico/apple-touch-icon-72x72.png' ) }}">
+
+<link rel="apple-touch-icon" href="{{ url_for( 'static', filename='images/ico/apple-touch-icon-57x57.png' ) }}">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet'>
+
+	<style>
+		.recuo { text-indent:2em }
+
+		.style_select {
+		  border: 0px solid #ccc;
+		  border-radius: 5px;
+		  font-size: 1em;
+		  height: 35px;
+		  line-height: 10px;
+		  margin: 0;
+		  padding: 0px 0px 0px 0px;
+		  background: #383838 none no-repeat;
+		  cursor: pointer;
+		  color:#D9D9D9;
+		  text-align-last:center;
+		  text-align: center;
+   		  -ms-text-align-last: center;
+     	  -moz-text-align-last: center;
+		}
+
+		.well {
+			border-radius: 5px;
+			background-color:rgb(255, 253, 200);
+		}
+
+		textarea[type="text"]::placeholder {  
+            text-align: center; 
+            vertical-align: middle;
+        } 
+
+        #comment_form {
+		    width: 100%;
+		    padding: 10px 5px;
+		    margin-bottom: 15px;
+		    background-color: rgba(0, 0, 0, 0.05);
+		    color: gray;
+		    border: none;
+		    min-height: 150px;
+		    font-size: 1.2em;
+		}
+
+		body {
+		    color: #222;
+		    background: #f5f5f5;
+		    font-family: Lato, sans-serif;
+		    font-weight: 300;
+		    line-height: 1.6;
+		    font-size: 16px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+		    font-family: Lato, sans-serif;
+		    font-weight: 700;
+		}
+
+	</style>
+
+
+{% block js_image_content  %}
+
+{% endblock  js_image_content %}
+
+
+
+</head><!--/head-->
+<body>
+	<div id="preloader"></div>
+	<header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand" href=" {{url_for('index')}}"><h1><span class="pe-7s-gleam bounce-in"></span> AvaliaGeo</h1></a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="{{url_for('index')}}">Home</a></li>
+					<li><a href="{{url_for('index',_anchor='about-us')}}">Sobre</a></li>
+					<li><a href="{{url_for('avaliar')}}">Avaliar</a></li> 
+				</ul>
+			</div>
+		</div>
+	</header><!--/header-->
+	{% block content %}
+	{% endblock content %}
+
+	<div id="footer-wrapper">
+		<section id="bottom" class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-sm-6 center-block text-center">
+						<h3>Contato</h3>
+						<h4 > arthur.freitas@aluno.ufop.edu.br</h4>
+					</div><!--/.col-md-3-->
+
+					<div class="col-6 col-sm-6 center-block text-center">
+						<h3>Universidade Federal de Ouro Preto</h3>
+						<h4 >Instituto de Ciências Exatas e Aplicadas - João Monlevade - MG</h4>
+					</div><!--/.col-md-3-->
+
+                </div>
+            </div>
+        </section><!--/#bottom-->
+
+        <footer id="footer" class="">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-sm-6">
+        				&copy; 2018 <a target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates"><!-- Distinctive Themes --> Todos os Direitos Reservados</a>
+        			</div>
+        			<div class="col-sm-6">
+        				<ul class="pull-right">
+        					<li><a id="gototop" class="gototop" href="index.html#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+        				</ul>
+        			</div>
+        		</div>
+        	</div>
+        </footer><!--/#footer-->
+    </div>
+
+    
+    <script src="{{ url_for( 'static', filename='js/plugins.js') }}"></script>
+    <script src="{{ url_for( 'static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for( 'static', filename='js/jquery.prettyPhoto.js') }}"></script>   
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script> 
+    <script src="{{ url_for( 'static', filename='js/init.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+{% extends "layout.html" %}
+
+
+
+
+{% block js_image_content %}
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+     'use strict';
+     jQuery('body').backstretch([
+            "static/images/world-map-1.png",
+            "static/images/world-map-1.png"
+         ], {duration: 5000, fade: 500, centeredY: true });
+
+     $("#mapwrapper").gMap({ controls: false,
+      scrollwheel: false,
+      markers: [{   
+       latitude:40.7566,
+       longitude: -73.9863,
+       icon: { image: "images/marker.png",
+       iconsize: [44,44],
+       iconanchor: [12,46],
+       infowindowanchor: [12, 0] } }],
+       icon: { 
+         image: "images/marker.png", 
+         iconsize: [26, 46],
+         iconanchor: [12, 46],
+         infowindowanchor: [12, 0] },
+         latitude:40.7566,
+         longitude: -73.9863,
+         zoom: 14 });
+   });
+
+  function myFunction() {
+  location.replace(url_for('validar	'))
+}
+
+
+  function submitButtonStyle(_this) {
+  // _this.style.backgroundColor = "rgb(130, 134, 140)";
+  // _this.style.color = "white";
+}
+
+
+
+function valid(){
+  // var selects = document.getElementsByTagName("select");
+  // var c = 0;
+  // var j = 0;
+  // for (var i = 0; i < selects.length; i++) {
+  //   if (selects[i].value.includes("None")){
+  //     if (i % 2 == 0){
+  //       confirm("Você esqueceu de selecionar o "+(j+1) + "º topônimo")
+  //     }else{
+  //       confirm("Você esqueceu de selecionar a confiabilidade do "+(j+1) + "º topônimo") 
+  //     }      
+  //     return false;
+  //   }
+  //   c=c+1;
+  //   if (c % 2 == 0){
+  //     j = j+1;
+  //     c = 0;
+  //   }
+  // }
+  // confirm("Dados Registrados com Sucesso")
+    
+  return true;
+}
+ </script>
+{% endblock js_image_content %}
+
+{% block content %}
+
+    <section id="single-page-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">{{title}}</h2>
+                                    <hr>
+                                    <!-- <p> {{sub_title}}</p> -->
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+
+    </section><!--/#main-slider-->
+    <div id="content-wrapper">
+        <section id="about-us" class="white">
+            <div class="container">
+                <!-- <div class="text-center">  <span style="font-size: 1.5em">Lembrando que : </span> <select><option>Local a que se refere</option></select> <select><option>Quão certo de sua resposta você está?</option></select></div> -->
+                <div class="gap"></div>
+
+                <div class="row">
+                    <div class="col-md-12 fade-up">
+                        <form action="{{url_for('avaliar')}}" name="main_form" id="main_form" onsubmit="return valid()" method="POST" >     
+                        {{ noticia|safe }}
+                    </div>
+                    <div>
+                      {{firebase_filename|safe}}
+                    </div>
+                    <div>
+                      {{firebase|safe}}
+                    </div>
+                    <div class="col-md-4 fade-up">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center-block text-center ">
+                        <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;" name="submit_button" value="Do Something" >+1 Notícia</button>
+
+                        <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;text-indent:0em" name="submit_button" value="Do Something Else">Finalizar</button></form>
+                    </div>
+               </div>               
+            </div>      
+        </section>
+    </div>
+{% endblock content  %}
+
+ <!-- <div id="collapse-test">
+
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Button with data-target </button>
+                    
+                        <div class="collapse" id="collapseExample">
+                          <div class="well">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    sd
+                                </div>
+                                <div class="col-md-2">
+                                
+                            
+                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">botãoo</button></div>
+                            </div>
+                          </div>
+
+                        </div>
+                        
+                </div> -->
+                
+               <!--  <div id="collapse-test2">
+
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> Button with data-target </button>
+                    
+                        <div class="collapse" id="collapseExample2">
+                          <div class="well">
+                            some text
+                          </div>
+
+                        </div>
+                        
+                </div>
+                 -->

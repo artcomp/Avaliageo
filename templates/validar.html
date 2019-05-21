@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block js_image_content %}
+
+{% endblock js_image_content %}
+
+{% block content %}
+
+<div id="content-wrapper">
+
+    <section id="finalizar" class="white">
+        <div class="container">
+            <div class="gap"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center fade-down section-heading">
+                        <h2 class="main-title mt-0" style="color: gray;"> Obrigado pela Participação !!!   </h2>
+                    </div>   
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center fade-down section-heading">
+                        <div class="gap"></div>
+                        <h4 class="main-title mt-0" style="color: gray;">Alguma sugestão ou crítica ?</h4>             
+                        <h5 class="main-title mt-0" style="color: gray;"><!-- Deixe seu comentário --></h5>             
+                    </div>   
+                </div>
+            </div>
+
+            <div>
+                      {{firebase_filename|safe}}
+                    </div>
+                    <div>
+                      {{firebase|safe}}
+                    </div>
+            
+            <div class="row">
+                <div class="center-block text-center">
+                    <br>
+                    <div class="col-md-1" ></div>
+                    <div class="col-md-10" >
+
+                        <form action="{{url_for('validar')}}"  name="comment_form" method="POST">
+                            <textarea name="comments" id="comment_form" type="text" placeholder="Comentários"></textarea>
+                            
+                            <div class="gap"></div>
+                            
+                            <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;text-indent:0em" name="comment_button" value="comment_button">Finalizar</button>
+                        </form>
+<!-- 
+                        <form action="{{url_for('validar')}}" method="POST">
+                            <textarea name="comments" id="comments" type="text" placeholder="Comentários"></textarea>
+                            <button type="submit">BTN</button>
+                        </form> -->
+
+                    </div>
+                    <div class="col-md-1" ></div>
+                </div>
+            </div>
+            <div class="row"></div>> 
+        </div>      
+    </section>
+
+</div>
+
+
+    {% endblock content  %}

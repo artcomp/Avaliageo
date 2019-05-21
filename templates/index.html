@@ -1,0 +1,116 @@
+
+{% extends "layout.html" %}
+
+
+
+{% block js_image_content %}
+
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		'use strict';
+		jQuery('body').backstretch([
+			"static/images/bg/bg1.jpg",
+			"static/images/bg/bg2.jpg"
+            // ,"images/bg/bg3.jpg"
+            ], {duration: 5000, fade: 500, centeredY: true });
+
+		$("#mapwrapper").gMap({ controls: false,
+			scrollwheel: false,
+			markers: [{   
+				latitude:40.7566,
+				longitude: -73.9863,
+				icon: { image: "images/marker.png",
+				iconsize: [44,44],
+				iconanchor: [12,46],
+				infowindowanchor: [12, 0] } }],
+				icon: { 
+					image: "images/marker.png", 
+					iconsize: [26, 46],
+					iconanchor: [12, 46],
+					infowindowanchor: [12, 0] },
+					latitude:40.7566,
+					longitude: -73.9863,
+					zoom: 14 });
+	});
+</script>
+
+
+{% endblock js_image_content %}
+
+{% block content  %}
+
+
+<section id="main-slider" class="no-margin">
+	<div class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="carousel-content center centered">
+								<span class="home-icon pe-7s-gleam bounce-in"></span>
+								<h2 class="boxed animation animated-item-1 fade-down mt-4">AvaliaGeo</h2><br>
+								<p class="boxed animation animated-item-2 fade-up">Avaliar Notícias Geocodificadas a partir de portais de notícias</p>
+								<br>
+
+								<a class="btn btn-outline-success animation bounce-in" href="{{url_for('index',_anchor='about-us')}}">Saiba Mais</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.item-->
+		</div><!--/.carousel-inner-->
+	</div><!--/.carousel-->
+</section><!--/#main-slider-->
+
+<div id="content-wrapper">
+
+	<section id="about-us" class="white">
+		<div class="container">
+			<div class="gap"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="center gap fade-down section-heading">
+						<h2 class="main-title">Um Pouco Sobre o Projeto</h2>
+						<hr>
+						<p>Um sistema que permite aos usuários classificar referências geográficas presentes em notícias</p>
+					</div>                
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 fade-up">
+
+					<p class="text-justify recuo"> Olá, tudo bem!!! Meu nome é Arthur, sou estudante do curso de Engenharia de Computação na Universidade Federal de Ouro Preto (UFOP), e este é meu Trabalho de Conclusão de Curso. O objetivo do trabalho é construir bases de dados geocodificadas a partir da participação dos usuários. A ideia central do projeto é classificar as referências geográficas presentes em notícias e, em trabalhos futuros, utilizar estas bases para validar os algoritmos que detectam e classificam corretamente o local(informação geográfica) presente no texto. </p>
+
+					<p class="text-justify recuo">Para a construção destas bases de dados estão sendo utilizadas metérias de portais de notícias ( G1 por exemplo ). Para cada notícia, há um cunjunto de topônimos (informação geográfica). O trabalho do usuário é selecionar, para cada topônimo, o local que julga ser o correto e o grau de certeza da sua resposta, baseado no contexto da notícia e nos conhecimentos pessoais previamente adiquiridos. O vídeo a seguir exemplifica a participação de um usuário, mostrando a classificação de uma notícia.</p>
+
+					<div class="gap"></div>  
+
+					<div class="embed-responsive embed-responsive-16by9">
+				    	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OtkjOpNX91k?rel=0&showinfo=0"></iframe>
+				    </div>
+
+				</div>
+				<div class="col-md-4 fade-up">
+
+				</div>
+			</div>
+
+			<div class="gap"></div>  
+			
+			<div class="row">
+				<div class="center-block text-center ">
+					<a class="btn btn-lg btn-outlined btn-primary animation bounce-in" href="{{url_for('avaliar')}}" style="font-size: 2em">Iniciar Avaliação</a>
+				</div>
+			</div> 
+
+
+			  
+		</div>      
+	</section>
+
+
+
+</div>
+
+{% endblock content  %}
