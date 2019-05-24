@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
-
-
-
 {% block js_image_content %}
 
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+
 <script type="text/javascript">
+
     jQuery(document).ready(function($){
      'use strict';
      jQuery('body').backstretch([
@@ -32,41 +32,108 @@
          zoom: 14 });
    });
 
-  function myFunction() {
-  location.replace(url_for('validar	'))
-}
+  	function submitButtonStyle(_this) {
+	  
+    var btn_confirm_id = _this.id;
+    var spl = btn_confirm_id.split("_");
+    var value_att = spl[spl.length-1];
 
-
-  function submitButtonStyle(_this) {
-  // _this.style.backgroundColor = "rgb(130, 134, 140)";
-  // _this.style.color = "white";
-}
-
-
-
-function valid(){
-  // var selects = document.getElementsByTagName("select");
-  // var c = 0;
-  // var j = 0;
-  // for (var i = 0; i < selects.length; i++) {
-  //   if (selects[i].value.includes("None")){
-  //     if (i % 2 == 0){
-  //       confirm("Você esqueceu de selecionar o "+(j+1) + "º topônimo")
-  //     }else{
-  //       confirm("Você esqueceu de selecionar a confiabilidade do "+(j+1) + "º topônimo") 
-  //     }      
-  //     return false;
-  //   }
-  //   c=c+1;
-  //   if (c % 2 == 0){
-  //     j = j+1;
-  //     c = 0;
-  //   }
-  // }
-  // confirm("Dados Registrados com Sucesso")
+    var element = 'toponym_in_news_'+value_att;
     
-  return true;
-}
+    document.getElementById(element).style.backgroundColor = "rgb(130, 134, 140)";
+	  document.getElementById(element).style.color = "white";
+
+	}
+
+	function valid(){
+	  var selects = document.getElementsByTagName("select");
+	  var c = 0;
+	  var j = 0;
+	  for (var i = 0; i < selects.length; i++) {
+	    if (selects[i].value.includes("None")){
+	      if (i % 2 == 0){
+	        confirm("Você esqueceu de selecionar o "+(j+1) + "º topônimo")
+	      }else{
+	        confirm("Você esqueceu de selecionar a confiabilidade do "+(j+1) + "º topônimo") 
+	      }      
+	      return false;
+	    }
+	    c=c+1;
+	    if (c % 2 == 0){
+	      j = j+1;
+	      c = 0;
+	    }
+	  }
+	  confirm("Dados Registrados com Sucesso")
+	  return true;
+	}
+
+ var firebaseConfig = {
+    apiKey: "AIzaSyDvwREGGwg3c8fOnWpiq7HICc7sHqP8HRM",
+    authDomain: "proj-6d034.firebaseapp.com",
+    databaseURL: "https://proj-6d034.firebaseio.com",
+    projectId: "proj-6d034",
+    storageBucket: "proj-6d034.appspot.com",
+    messagingSenderId: "156803354326",
+    appId: "1:156803354326:web:dba5d4e48f3781dd"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var storage = firebase.storage();
+  var storageRef = storage.ref();
+
+
+  var filename = "{{firebase_filename|safe}}" + ".txt";
+  filename = filename.replace(/\s/g, ''); /*remove possíveis espaços em branco*/
+  var data = '{{firebase|safe}}'
+  // confirm(filename);
+  
+  if (filename != '.txt'){
+
+    var str = "void";
+    storageRef.child(filename).getDownloadURL().then(function(url) {
+
+      // confirm("firebase")
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', url, true);
+      
+         // xhr.onreadystatechange = function() {
+      //   if (this.readyState == 4 && this.status == 200) {
+      //   var blob = xhr.responseText;        
+      //   var new_str = blob + data_to_append;
+        
+      //   uploadData(file, new_str);
+      //   console.log(new_str)
+      //   }
+      // };
+
+      xhr.onload = function(event) {
+        var blob = xhr.responseText;        
+        var new_str = blob + data;
+
+	    storageRef.child(filename).putString(new_str).then(
+	    
+	        function(snapshot){
+		       	
+		        console.log('uploaded to firebase')
+	       }
+	     ), function (error){
+	     		console.log(error);
+	     	}
+      };
+
+	xhr.send(null);
+      
+    }).catch(function(error) {
+      console.log(error)
+      confirm("Erro")
+    });
+
+  }else{
+   // confirm(filename + " ---  Primeira iteração. Não há dados para serem enviados ainda")
+    console.log(filename + " ---  Primeira iteração. Não há dados para serem enviados ainda");
+  }  
+
  </script>
 {% endblock js_image_content %}
 
@@ -114,7 +181,7 @@ function valid(){
                 </div>
                 <div class="row">
                     <div class="center-block text-center ">
-                        <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;" name="submit_button" value="Do Something" >+1 Notícia</button>
+                        <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;" name="submit_button" value="Do Something">+1 Notícia</button>
 
                         <button type="submit" class="btn btn-lg btn-outlined btn-primary animation bounce-in" style="font-size: 2em;text-indent:0em" name="submit_button" value="Do Something Else">Finalizar</button></form>
                     </div>
@@ -123,38 +190,3 @@ function valid(){
         </section>
     </div>
 {% endblock content  %}
-
- <!-- <div id="collapse-test">
-
-                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Button with data-target </button>
-                    
-                        <div class="collapse" id="collapseExample">
-                          <div class="well">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    sd
-                                </div>
-                                <div class="col-md-2">
-                                
-                            
-                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">botãoo</button></div>
-                            </div>
-                          </div>
-
-                        </div>
-                        
-                </div> -->
-                
-               <!--  <div id="collapse-test2">
-
-                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> Button with data-target </button>
-                    
-                        <div class="collapse" id="collapseExample2">
-                          <div class="well">
-                            some text
-                          </div>
-
-                        </div>
-                        
-                </div>
-                 -->

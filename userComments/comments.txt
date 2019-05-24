@@ -1,9 +1,3 @@
 {
-    "user_comment": "Algum comentário"
-}{
-    "user_comment": "Outro Comentário"
-}{
-    "user_comment": "Mais Comentários"
-}{
-    "user_comment": ""
+    "user_comment": "comentarios gerais"
 }

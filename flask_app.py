@@ -110,7 +110,8 @@ def validar():
 	if request.method == "POST":
 		user_data = request.form.get('comments')
 		files.commentsFromUser(user_data)
-		return redirect(url_for('index'))
+		user_data = user_data+"$$$$$$$$$"
+		return render_template('index.html',user_data=user_data)
 
 	elif request.method == "GET":
 		return render_template("validar.html")

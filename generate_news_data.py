@@ -1,10 +1,10 @@
 import tutor
 import json
 
-urls = [	
+urls = [
+	['https://g1.globo.com/economia/noticia/2019/03/28/carrefour-cortara-mais-de-1-mil-empregos-na-franca-diz-sindicato.ghtml',""],
 	['https://g1.globo.com/sp/mogi-das-cruzes-suzano/noticia/2019/03/13/cena-mais-triste-que-assisti-em-toda-a-minha-vida-diz-doria-sobre-ataque-em-escola-em-suzano.ghtml',""],
 	['https://g1.globo.com/mg/sul-de-minas/noticia/2019/03/20/funcionarios-sao-atropelados-por-ex-patrao-apos-audiencia-trabalhista-em-mg.ghtml',""],
-	['https://g1.globo.com/economia/noticia/2019/03/28/carrefour-cortara-mais-de-1-mil-empregos-na-franca-diz-sindicato.ghtml',""],
 	['https://g1.globo.com/mg/minas-gerais/noticia/2019/03/22/homem-e-suspeito-de-matar-mulher-em-belo-horizonte.ghtml',""],
 	['https://g1.globo.com/mundo/noticia/2018/10/21/principe-harry-vai-a-evento-sem-meghan-que-reduz-agenda-por-causa-da-gravidez.ghtml',""],
 	['https://g1.globo.com/sp/sao-paulo/noticia/2019/03/20/verao-2019-foi-o-5o-mais-quente-da-historia-outono-tera-temperaturas-pouco-acima-da-media.ghtml',""],

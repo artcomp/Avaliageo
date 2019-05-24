@@ -39,7 +39,9 @@ def applicationDev(url):
 	
 	# texto gerado
 	text_with_button = info_extract.putButtonIndex(inicial_text)
+
+	text_with_button_id = info_extract.putIndexInToponyms(text_with_button)
 	
-	final_text = info_extract.generateText(text_with_button, select_options)	
+	final_text = info_extract.generateText(text_with_button_id, select_options)	
 
 	return (final_text, toponimos)

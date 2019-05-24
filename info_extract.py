@@ -58,8 +58,8 @@ def print_list(string_list):
 		print(st)
 
 
-def parseTopToUser(strr):
-	codecs = [
+def specialCaseParseTopToUser(strr):
+    	codecs = [
 				('PCLI', '(País'), 
 				('ADM1', '(Estado'),
 				('ADM2', '(Distrito do Estado'),
@@ -99,6 +99,62 @@ def parseTopToUser(strr):
 				('MT','(Montanha')
 				]
 
+	s = strr
+	for i in codecs:
+    		if i[0] in strr:
+    			a1 = strr.split()[1]
+    			a2 = strr.split()[2]
+    			if i[0] == a1:
+						s = strr.replace(strr.split()[1], i[1])
+						s= s.replace('/', ' ')
+
+			if i[0] == a2:
+							s = strr.replace(strr.split()[2], i[1])
+							s = s.replace('/', ' ')
+
+	return s
+def parseTopToUser(strr):
+	codecs = [
+				('PCLI', '(País'), 
+				('ADM1', '(Estado'),
+				('ADM2', '(Distrito do Estado'),
+				('PPLC', '(Capital do País'),
+				('PPLA', '(Capital do Estado'),
+				('AIRP', '(Aeroporto'),
+				('PPL' , '(Cidade'),
+				('RGN' , '(Região'),
+				('CONT', '(Continente'),
+				('LCTY', '(Local Menor,Misto ou Indefinido'),
+				('DAM', '(Barreira Dáqua'),
+				('BLDG', '(Prédio'),
+				('AGRF','(Instalação Agrícola'),
+				('ADM3', '(Distrito da Cidade'),
+				('SCH', '(Escola'),
+				('LK', '(Lago'),
+				('OPRA', '(Casa de Ópera'),
+				('AMTH','(Anfiteatro'),
+				('PAL', '(Palácio'),
+				('STM','(Fluxo de Água'),
+				('RVN','(Ravina'),
+				('VLC','(Vulcão'),
+				('ISL','(Ilha'),
+				('BNK','(Banco'),
+				('SHOL','(Cardume'),
+				('HLL','(Colina'),
+				('AREA','(Área'),
+				('INLT','(Passagem'),
+				('STDM','(Estádio'),
+				('UNIV','(Universidade'),
+				('PRK','(Parque'),
+				('PCLH','(Antiga Entidade Política'),
+				('RSV','(Reserva'),
+				('SWMP','(Pântano'),
+				('BSNU','(Bacia'),
+				('MTS','(Montanhas'),
+				('MT','(Montanha'),
+				('PCLD','(Entidade Política Dependente')
+				]
+
 	all_country = files.getTupleCountries()
 	
 	string = " ".join(strr.split()[2:])
@@ -114,8 +170,8 @@ def parseTopToUser(strr):
 
 	d = c.replace('---',' ')
 	e = d.replace("$$$"," - ")
-	
-	return e+')'
+
+	return specialCaseParseTopToUser(e)+')'
 
 
 # nao pega os toponimos mas sim o resultado da consuta nos json
@@ -137,7 +193,7 @@ def insertDataIntoSelectTag(data):
 			string_option = string_option+'<option value="'+j+'">' + parseTopToUser(j) + '</option>'
 		
 		string_select = string_select + string_option+ option_none_of_alternatives_and_dont_know + '</select>'
-		data_list.append('''<div class="collapse" id="quest_''' + str(index_quest) + '''"> <div class="well"> <div class="row"> <div style="margin: 0 auto;" class="text-center"><div class="col-md-1">Topônimo:</div> <div class="col-md-6">''' + string_select +''' </div> <div class="col-md-2">  Certeza da Resposta :</div> <div class="col-md-1">'''+ '''<select class="form-control style_select" name="''' +option_select_in_text+str(index_quest)+ '''">'''+option_1_to_5 +''' </div> <div class="col-md-2" style="justify-items: center;"><button class="btn btn-success style="margin-top:5px;" type="button" data-toggle="collapse" data-target="#quest_''' + str(index_quest) +''' " aria-expanded="false" aria-controls=quest_'''+ str(index_quest)+'''>Confirmar</button> ''' +  '''</div></div></div></div></div>''')
+		data_list.append('''<div class="collapse" id="quest_''' + str(index_quest) + '''"> <div class="well"> <div class="row"> <div style="margin: 0 auto;" class="text-center"><div class="col-md-1">Topônimo:</div> <div class="col-md-6">''' + string_select +''' </div> <div class="col-md-2">  Certeza da Resposta :</div> <div class="col-md-1">'''+ '''<select class="form-control style_select" name="''' +option_select_in_text+str(index_quest)+ '''">'''+option_1_to_5 +''' </div> <div class="col-md-2" style="justify-items: center;"><button id="confirm_btn_id_''' + str(index_quest)+'''" class="btn btn-success style="margin-top:5px;" type="button" data-toggle="collapse" data-target="#quest_''' + str(index_quest) +''' " aria-expanded="false" aria-controls=quest_'''+ str(index_quest)+''' onclick="submitButtonStyle(this)" >Confirmar</button> ''' +  '''</div></div></div></div></div>''')
 		index_quest = index_quest + 1
 		
 		string_option = ""
@@ -145,12 +201,26 @@ def insertDataIntoSelectTag(data):
 		
 	return data_list
 
-# 
+
+def putIndexInToponyms(text):
+    	spl  = text.split("<button")
+	index_top = 0
+	for i in range(len(spl) - 1):
+		aux = 0
+		if aux % 2 == 0:
+			spl[i] = spl[i] + '<button id="toponym_in_news_' +str(index_top)+'"'
+			index_top = index_top + 1
+		aux = aux + 1
+
+	return ''.join(spl)
+
+
+
 def create_text_button(data):
 	bt = []
 	index = 0
 	for i in data:# i remove aria-controls for test
-		bt.append('''<button id="toponym_'''+str(index)+'''" onclick="submitButtonStyle(this)" style="font-size:1em;"class="btn style_toponym_in_text main_form" type="button" data-toggle="collapse" aria-expanded="false" >''' + i + '''</button>''')
+		bt.append('''<button style="font-size:1em;"class="btn style_toponym_in_text main_form" type="button" data-toggle="collapse" aria-expanded="false" >''' + i + '''</button>''')
 		index = index + 1
 	return bt
 
