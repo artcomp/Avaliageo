@@ -177,7 +177,7 @@ def parseTopToUser(strr):
 # nao pega os toponimos mas sim o resultado da consuta nos json
 def insertDataIntoSelectTag(data):
 	data_list = []
-	option_1_to_5 = '<option value="5">5</option> <option value="4">4</option> <option value="3">3</option> <option value="2">2</option> <option value="1">1</option><option value="None" selected>None</option>  </select>'
+	option_1_to_5 = '<option value="5"> 100 %</option> <option value="4"> 75 % </option> <option value="3"> 50 % </option> <option value="2"> 25 % </option> <option value="1"> 0 % </option><option value="None" selected>None</option>  </select>'
 	index_quest = 0
 	string_option = ""
 	string_select = ""
