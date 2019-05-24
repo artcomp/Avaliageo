@@ -59,20 +59,9 @@
     var str = "void";
     storageRef.child(filename).getDownloadURL().then(function(url) {
 
-      // confirm("firebase")
       var xhr = new XMLHttpRequest();
       xhr.open('GET', url, true);
       
-         // xhr.onreadystatechange = function() {
-      //   if (this.readyState == 4 && this.status == 200) {
-      //   var blob = xhr.responseText;        
-      //   var new_str = blob + data_to_append;
-        
-      //   uploadData(file, new_str);
-      //   console.log(new_str)
-      //   }
-      // };
-
       xhr.onload = function(event) {
         var blob = xhr.responseText;        
         var new_str = blob + data;
@@ -98,16 +87,11 @@
   }else{
     console.log("Não há comentários a serem enviados");
   }  
-
-
-
 </script>
-
 
 {% endblock js_image_content %}
 
 {% block content  %}
-
 
 <section id="main-slider" class="no-margin">
 	<div class="carousel slide" data-ride="carousel">
@@ -172,14 +156,7 @@
 					<a class="btn btn-lg btn-outlined btn-primary animation bounce-in" href="{{url_for('avaliar')}}" style="font-size: 2em">Iniciar Avaliação</a>
 				</div>
 			</div> 
-
-
-			  
 		</div>      
 	</section>
-
-
-
 </div>
-
 {% endblock content  %}

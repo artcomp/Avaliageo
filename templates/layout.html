@@ -37,7 +37,6 @@
 
 	<style>
 		.recuo { text-indent:2em }
-
 		.style_select {
 		  border: 0px solid #ccc;
 		  border-radius: 5px;
@@ -54,17 +53,14 @@
    		  -ms-text-align-last: center;
      	  -moz-text-align-last: center;
 		}
-
 		.well {
 			border-radius: 5px;
 			background-color:rgb(255, 253, 200);
 		}
-
 		textarea[type="text"]::placeholder {  
             text-align: center; 
             vertical-align: middle;
         } 
-
         #comment_form {
 		    width: 100%;
 		    padding: 10px 5px;
@@ -75,7 +71,6 @@
 		    min-height: 150px;
 		    font-size: 1.2em;
 		}
-
 		body {
 		    color: #222;
 		    background: #f5f5f5;
@@ -84,25 +79,15 @@
 		    line-height: 1.6;
 		    font-size: 16px;
 		}
-
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
+		h1,h2,h3,h4,h5,h6 {
 		    font-family: Lato, sans-serif;
 		    font-weight: 700;
 		}
-
 	</style>
-
 
 {% block js_image_content  %}
 
 {% endblock  js_image_content %}
-
-
 
 </head><!--/head-->
 <body>
@@ -145,7 +130,7 @@
                 </div>
             </div>
         </section><!--/#bottom-->
-
+        
         <footer id="footer" class="">
         	<div class="container">
         		<div class="row">
@@ -161,8 +146,6 @@
         	</div>
         </footer><!--/#footer-->
     </div>
-
-    
     <script src="{{ url_for( 'static', filename='js/plugins.js') }}"></script>
     <script src="{{ url_for( 'static', filename='js/bootstrap.min.js') }}"></script>
     <script src="{{ url_for( 'static', filename='js/jquery.prettyPhoto.js') }}"></script>   

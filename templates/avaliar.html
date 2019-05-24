@@ -93,20 +93,9 @@
     var str = "void";
     storageRef.child(filename).getDownloadURL().then(function(url) {
 
-      // confirm("firebase")
       var xhr = new XMLHttpRequest();
       xhr.open('GET', url, true);
       
-         // xhr.onreadystatechange = function() {
-      //   if (this.readyState == 4 && this.status == 200) {
-      //   var blob = xhr.responseText;        
-      //   var new_str = blob + data_to_append;
-        
-      //   uploadData(file, new_str);
-      //   console.log(new_str)
-      //   }
-      // };
-
       xhr.onload = function(event) {
         var blob = xhr.responseText;        
         var new_str = blob + data;
@@ -130,7 +119,6 @@
     });
 
   }else{
-   // confirm(filename + " ---  Primeira iteração. Não há dados para serem enviados ainda")
     console.log(filename + " ---  Primeira iteração. Não há dados para serem enviados ainda");
   }  
 
@@ -162,7 +150,7 @@
     <div id="content-wrapper">
         <section id="about-us" class="white">
             <div class="container">
-                <!-- <div class="text-center">  <span style="font-size: 1.5em">Lembrando que : </span> <select><option>Local a que se refere</option></select> <select><option>Quão certo de sua resposta você está?</option></select></div> -->
+                <!-- <div class="text-center">  <span style="font-size: 1.5em">Lembrando que : </span> <select class="style_select"><option>Local a que se refere</option></select> <select class="style_select"><option>Quão certo de sua resposta você está?</option></select></div> -->
                 <div class="gap"></div>
 
                 <div class="row">
@@ -170,12 +158,7 @@
                         <form action="{{url_for('avaliar')}}" name="main_form" id="main_form" onsubmit="return valid()" method="POST" >     
                         {{ noticia|safe }}
                     </div>
-                    <div>
-                      {{firebase_filename|safe}}
-                    </div>
-                    <div>
-                      {{firebase|safe}}
-                    </div>
+                    
                     <div class="col-md-4 fade-up">
                     </div>
                 </div>
