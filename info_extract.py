@@ -59,7 +59,9 @@ def print_list(string_list):
 
 
 def specialCaseParseTopToUser(strr):
-    	codecs = [
+
+	s = strr
+	codecs = [
 				('PCLI', '(País'), 
 				('ADM1', '(Estado'),
 				('ADM2', '(Distrito do Estado'),
@@ -98,21 +100,45 @@ def specialCaseParseTopToUser(strr):
 				('MTS','(Montanhas'),
 				('MT','(Montanha')
 				]
-
-	s = strr
+	
 	for i in codecs:
-    		if i[0] in strr:
-    			a1 = strr.split()[1]
-    			a2 = strr.split()[2]
-    			if i[0] == a1:
-						s = strr.replace(strr.split()[1], i[1])
+			if i[0] in strr:
+				a1 = strr.split()[1]
+				a2 = strr.split()[2]
+				
+				try:
+					a3 = strr.split()[3]
+					a4 = strr.split()[4]
+					a5 = strr.split()[5]
+				except:
+					pass
+				
+
+				if i[0] == a1:
+					s = strr.replace(strr.split()[1], i[1])
+					s = s.replace('/', ' ')
+
+				if i[0] == a2:
+					s = strr.replace(strr.split()[2], i[1])
+					s = s.replace('/', ' ')
+				try:
+
+					if i[0] == a3:
+						s = strr.replace(a3, i[1])
 						s= s.replace('/', ' ')
 
-			if i[0] == a2:
-							s = strr.replace(strr.split()[2], i[1])
-							s = s.replace('/', ' ')
+					if i[0] == a4:
+						s = strr.replace(a4, i[1])
+						s= s.replace('/', ' ')
+
+					if i[0] == a5:
+						s = strr.replace(a5, i[1])
+						s= s.replace('/', ' ')
+				except:
+					pass
 
 	return s
+
 def parseTopToUser(strr):
 	codecs = [
 				('PCLI', '(País'), 
@@ -170,6 +196,9 @@ def parseTopToUser(strr):
 
 	d = c.replace('---',' ')
 	e = d.replace("$$$"," - ")
+	e = e.replace('/ /', '/')
+	e = e.replace('/)', ')')
+	e = e.replace('.', ' ')
 
 	return specialCaseParseTopToUser(e)+')'
 
@@ -203,7 +232,7 @@ def insertDataIntoSelectTag(data):
 
 
 def putIndexInToponyms(text):
-    	spl  = text.split("<button")
+	spl  = text.split("<button")
 	index_top = 0
 	for i in range(len(spl) - 1):
 		aux = 0
@@ -225,15 +254,15 @@ def create_text_button(data):
 	return bt
 
 def replaceMultiple(mainString, toBeReplaces, newString):
-    # Iterate over the strings to be replaced    
-    i = 0
-    for elem in toBeReplaces :
-        # Check if string is in the main string
-        if elem in mainString :
-            # Replace the string
-            mainString = mainString.replace(elem, newString[i])
-            i = i + 1
-    return  mainString
+	# Iterate over the strings to be replaced    
+	i = 0
+	for elem in toBeReplaces :
+		# Check if string is in the main string
+		if elem in mainString :
+			# Replace the string
+			mainString = mainString.replace(elem, newString[i])
+			i = i + 1
+	return  mainString
 
 def putButtonIndex(string):
 	split_string =  string.split()
@@ -299,10 +328,10 @@ def sortToponymOccurence(a,b):
 
 # Create a function called "chunks" with two arguments, l and n:
 def chunks(l, n):
-    # For item i in a range that is a length of l,
-    for i in range(0, len(l), n):
-        # Create an index range for l of n items:
-        yield l[i:i+n]
+	# For item i in a range that is a length of l,
+	for i in range(0, len(l), n):
+		# Create an index range for l of n items:
+		yield l[i:i+n]
 
 def createSelectGroup(select_options, qtde_blocks):
 	lista = list(chunks(select_options, qtde_blocks))
