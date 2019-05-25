@@ -12,7 +12,7 @@ urls = [
 	['https://g1.globo.com/mg/minas-gerais/noticia/2019/03/20/ipva-2019-em-mg-prazo-para-pagar-3a-parcela-termina-quarta.ghtml',""],
 	['https://g1.globo.com/mg/minas-gerais/noticia/2019/03/20/camara-de-bh-aprova-em-1o-turno-projeto-que-autoriza-botao-de-panico-em-escolas.ghtml',""],
 	['https://g1.globo.com/df/distrito-federal/noticia/2019/04/05/operacao-investiga-grupo-que-desviou-mais-de-r-800-mil-de-clientes-do-bando-de-brasilia.ghtml',""],
-	['https://g1.globo.com/sp/sao-paulo/noticia/2019/04/08/doria-diz-que-nao-vai-cortar-servicos-nem-fechar-espacos-culturais-de-sp.ghtml',""],
+	# ['https://g1.globo.com/sp/sao-paulo/noticia/2019/04/08/doria-diz-que-nao-vai-cortar-servicos-nem-fechar-espacos-culturais-de-sp.ghtml',""],
 	['https://g1.globo.com/sp/sao-paulo/noticia/2019/04/08/mais-de-600-raios-atingem-a-grande-sp-durante-temporal-no-domingo.ghtml',""],
 	['https://g1.globo.com/economia/noticia/2019/04/11/eletrobras-anuncia-conclusao-de-venda-da-amazonas-energia.ghtml',""],
 	['https://g1.globo.com/pr/parana/noticia/2019/04/10/ex-presidente-do-bb-e-da-petrobras-aldemir-bendine-deixa-prisao-apos-decisao-do-stf.ghtml',""],
