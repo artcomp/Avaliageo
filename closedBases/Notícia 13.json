@@ -1,0 +1,85 @@
+{
+    "url": "https://g1.globo.com/economia/agronegocios/noticia/2019/04/09/jbs-faz-recall-de-20-toneladas-de-carne-moida-contaminada-com-plastico-nos-eua.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6252001", 
+            "top_find_on_new": "Estados Unidos", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Estados Unidos PCLI"
+        }, 
+        {
+            "std_deviation": 0.5164, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Departamento de Agricultura americano", 
+            "mean_confiability": 4.6, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.3162, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "americano", 
+            "mean_confiability": 4.1, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.6749, 
+            "toponym_geonamesId": "11048238", 
+            "top_find_on_new": "USDA", 
+            "mean_confiability": 3.3, 
+            "top_selected_by_user": "United Stated Department of Agriculture (USDA) Soil Conservation Service, Plant Materials Center AGRF"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "5005954", 
+            "top_find_on_new": "Plainwell", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Plainwell PPL"
+        }, 
+        {
+            "std_deviation": 0.4082, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Michigan", 
+            "mean_confiability": 4.1667, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.4216, 
+            "toponym_geonamesId": "5279468", 
+            "top_find_on_new": "Wisconsin", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Wisconsin ADM1"
+        }, 
+        {
+            "std_deviation": 0.7888, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "americano", 
+            "mean_confiability": 3.8, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.3162, 
+            "toponym_geonamesId": "11048238", 
+            "top_find_on_new": "USDA", 
+            "mean_confiability": 4.1, 
+            "top_selected_by_user": "United Stated Department of Agriculture (USDA) Soil Conservation Service, Plant Materials Center AGRF"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6252001", 
+            "top_find_on_new": "Estados Unidos", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Estados Unidos PCLI"
+        }, 
+        {
+            "std_deviation": 0.4216, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "americano", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Não é"
+        }
+    ], 
+    "number_of_voters": 10, 
+    "cronbach": 0.9674, 
+    "title": "JBS faz recall de 20 toneladas de carne moída por contaminação com plástico nos EUA "
+}

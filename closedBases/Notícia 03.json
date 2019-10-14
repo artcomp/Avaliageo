@@ -1,0 +1,64 @@
+{
+    "url": "https://g1.globo.com/economia/noticia/2019/04/09/avianca-brasil-pede-suspensao-de-liminar-para-evitar-retomada-de-avioes.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Avianca Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Justiça de São Paulo", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.5222, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "SP", 
+            "mean_confiability": 4.5455, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Avianca Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3463237", 
+            "top_find_on_new": "Florianópolis", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Florianópolis PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "alemã", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3452925", 
+            "top_find_on_new": "Porto Alegre", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Porto Alegre PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Avianca Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }
+    ], 
+    "number_of_voters": 11, 
+    "cronbach": 0.9986, 
+    "title": "Avianca Brasil pede suspensão de liminar para evitar retomada de aviões "
+}

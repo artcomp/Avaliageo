@@ -1,0 +1,29 @@
+{
+    "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/03/20/policia-investiga-morte-de-jovem-de-18-anos-com-oito-tiros-na-baixada-fluminense.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.4031, 
+            "toponym_geonamesId": "7538239", 
+            "top_find_on_new": "Vila Rosali", 
+            "mean_confiability": 3.8125, 
+            "top_selected_by_user": "Vila Rosali PPLX"
+        }, 
+        {
+            "std_deviation": 0.414, 
+            "toponym_geonamesId": "6322067", 
+            "top_find_on_new": "São João de Meriti", 
+            "mean_confiability": 3.2, 
+            "top_selected_by_user": "São João de Meriti ADM2"
+        }, 
+        {
+            "std_deviation": 0.414, 
+            "toponym_geonamesId": "6322067", 
+            "top_find_on_new": "São João De Meriti", 
+            "mean_confiability": 3.2, 
+            "top_selected_by_user": "São João de Meriti ADM2"
+        }
+    ], 
+    "number_of_voters": 16, 
+    "cronbach": 0.9956, 
+    "title": "Polícia investiga morte de jovem de 18 anos com oito tiros na Baixada Fluminense "
+}

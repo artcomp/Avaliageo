@@ -1,0 +1,92 @@
+{
+    "url": "https://g1.globo.com/mundo/noticia/2018/10/21/principe-harry-vai-a-evento-sem-meghan-que-reduz-agenda-por-causa-da-gravidez.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 1.069, 
+            "toponym_geonamesId": "2147714", 
+            "top_find_on_new": "Sydney", 
+            "mean_confiability": 4.1429, 
+            "top_selected_by_user": "Sydney PPLA"
+        }, 
+        {
+            "std_deviation": 1.069, 
+            "toponym_geonamesId": "2147714", 
+            "top_find_on_new": "Sydney", 
+            "mean_confiability": 4.1429, 
+            "top_selected_by_user": "Sydney PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "2077456", 
+            "top_find_on_new": "Austrália", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Austrália PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "duques", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": ""
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Sussex", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": ""
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "2077456", 
+            "top_find_on_new": "Austrália", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Austrália PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6255151", 
+            "top_find_on_new": "Oceania", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Oceania CONT"
+        }, 
+        {
+            "std_deviation": 1.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "duques", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Sussex", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": ""
+        }, 
+        {
+            "std_deviation": 0.5547, 
+            "toponym_geonamesId": "2205218", 
+            "top_find_on_new": "Fiji", 
+            "mean_confiability": 3.8462, 
+            "top_selected_by_user": "Fiji PCLI"
+        }, 
+        {
+            "std_deviation": 0.483, 
+            "toponym_geonamesId": "4032283", 
+            "top_find_on_new": "Tonga", 
+            "mean_confiability": 3.7, 
+            "top_selected_by_user": "Tonga PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "2186224", 
+            "top_find_on_new": "Nova Zelândia", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Nova Zelândia PCLI"
+        }
+    ], 
+    "number_of_voters": 13, 
+    "cronbach": 0.9984, 
+    "title": "Príncipe Harry vai a evento sem Meghan, que reduz agenda por causa da gravidez "
+}

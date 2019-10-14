@@ -1,0 +1,36 @@
+{
+    "url": "https://g1.globo.com/df/distrito-federal/noticia/2019/04/05/operacao-investiga-grupo-que-desviou-mais-de-r-800-mil-de-clientes-do-bando-de-brasilia.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.3536, 
+            "toponym_geonamesId": "3463504", 
+            "top_find_on_new": "Distrito Federal", 
+            "mean_confiability": 4.875, 
+            "top_selected_by_user": "Distrito Federal ADM1"
+        }, 
+        {
+            "std_deviation": 0.5164, 
+            "toponym_geonamesId": "3453420", 
+            "top_find_on_new": "Planaltina", 
+            "mean_confiability": 4.6667, 
+            "top_selected_by_user": "Planaltina PPL"
+        }, 
+        {
+            "std_deviation": 0.7379, 
+            "toponym_geonamesId": "3455047", 
+            "top_find_on_new": "Paranoá", 
+            "mean_confiability": 4.1, 
+            "top_selected_by_user": "Paranoá PPL"
+        }, 
+        {
+            "std_deviation": 0.3015, 
+            "toponym_geonamesId": "3469058", 
+            "top_find_on_new": "Brasilia", 
+            "mean_confiability": 4.9091, 
+            "top_selected_by_user": "Brasília PPLC"
+        }
+    ], 
+    "number_of_voters": 12, 
+    "cronbach": 0.4954, 
+    "title": "Operação investiga grupo que desviou mais de R$ 800 mil de clientes de bancos do DF "
+}

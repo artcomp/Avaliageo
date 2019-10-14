@@ -1,0 +1,50 @@
+{
+    "url": "https://g1.globo.com/loterias/noticia/2019/04/10/mega-sena-concurso-2141-ninguem-acerta-as-seis-dezenas-e-premio-vai-a-r-45-milhoes.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.7071, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 4.5, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Sena", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469136", 
+            "top_find_on_new": "Botucatu", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Botucatu PPLA2"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "SP", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Sena", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469058", 
+            "top_find_on_new": "Brasília", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasília PPLC"
+        }
+    ], 
+    "number_of_voters": 2, 
+    "cronbach": 1.0, 
+    "title": "Mega-Sena, concurso 2.141: ninguém acerta as seis dezenas e prêmio vai a R$ 45 milhões "
+}

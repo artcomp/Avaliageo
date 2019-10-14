@@ -1,0 +1,92 @@
+{
+    "url": "https://g1.globo.com/economia/noticia/2019/04/09/em-avanco-china-promete-maior-abertura-a-empresas-da-uniao-europeia.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.488, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "chinês", 
+            "mean_confiability": 4.7143, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1816670", 
+            "top_find_on_new": "Pequim", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Pequim PPLC"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6252001", 
+            "top_find_on_new": "Estados Unidos", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Estados Unidos PCLI"
+        }, 
+        {
+            "std_deviation": 0.5, 
+            "toponym_geonamesId": "2800866", 
+            "top_find_on_new": "Bruxelas", 
+            "mean_confiability": 4.75, 
+            "top_selected_by_user": "Bruxelas PPLC"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }, 
+        {
+            "std_deviation": 0.5345, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "chinês", 
+            "mean_confiability": 4.4286, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6255148", 
+            "top_find_on_new": "Europa", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Europa CONT"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }
+    ], 
+    "number_of_voters": 7, 
+    "cronbach": 0.9988, 
+    "title": "Em avanço, China promete maior abertura a empresas da União Europeia "
+}

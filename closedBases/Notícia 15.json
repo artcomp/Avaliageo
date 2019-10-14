@@ -1,0 +1,50 @@
+{
+    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2019/04/08/mais-de-600-raios-atingem-a-grande-sp-durante-temporal-no-domingo.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 1.069, 
+            "toponym_geonamesId": "3448439", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 3.8571, 
+            "top_selected_by_user": "São Paulo PPLA"
+        }, 
+        {
+            "std_deviation": 0.5, 
+            "toponym_geonamesId": "3446194", 
+            "top_find_on_new": "Tremembé", 
+            "mean_confiability": 4.25, 
+            "top_selected_by_user": "Tremembé PPL"
+        }, 
+        {
+            "std_deviation": 0.7559, 
+            "toponym_geonamesId": "3448439", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "São Paulo PPLA"
+        }, 
+        {
+            "std_deviation": 0.5477, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "paulista", 
+            "mean_confiability": 4.6, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.4216, 
+            "toponym_geonamesId": "3456827", 
+            "top_find_on_new": "Monte Mor", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Monte Mor PPL"
+        }, 
+        {
+            "std_deviation": 0.5477, 
+            "toponym_geonamesId": "3472310", 
+            "top_find_on_new": "Amparo", 
+            "mean_confiability": 3.5, 
+            "top_selected_by_user": "Amparo ADM2"
+        }
+    ], 
+    "number_of_voters": 10, 
+    "cronbach": 0.9164, 
+    "title": "Mais de 600 raios atingem a Grande SP durante temporal no domingo "
+}

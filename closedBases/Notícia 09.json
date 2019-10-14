@@ -1,0 +1,64 @@
+{
+    "url": "https://g1.globo.com/pr/parana/noticia/2019/04/10/ex-presidente-do-bb-e-da-petrobras-aldemir-bendine-deixa-prisao-apos-decisao-do-stf.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.4216, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Banco do Brasil", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.4216, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Banco do Brasil", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.744, 
+            "toponym_geonamesId": "6317953", 
+            "top_find_on_new": "Pinhais", 
+            "mean_confiability": 3.375, 
+            "top_selected_by_user": "Pinhais PPL"
+        }, 
+        {
+            "std_deviation": 0.4629, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Região Metropolitana", 
+            "mean_confiability": 4.75, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.2582, 
+            "toponym_geonamesId": "3464975", 
+            "top_find_on_new": "Curitiba", 
+            "mean_confiability": 4.9333, 
+            "top_selected_by_user": "Curitiba PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3455077", 
+            "top_find_on_new": "Paraná", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Paraná ADM1"
+        }, 
+        {
+            "std_deviation": 0.483, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Banco do Brasil", 
+            "mean_confiability": 4.3, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3455077", 
+            "top_find_on_new": "Paraná", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Paraná ADM1"
+        }
+    ], 
+    "number_of_voters": 15, 
+    "cronbach": 0.9882, 
+    "title": "Ex-presidente do BB e da Petrobras Aldemir Bendine deixa prisão após decisão do STF "
+}

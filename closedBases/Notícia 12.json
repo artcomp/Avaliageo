@@ -1,0 +1,50 @@
+{
+    "url": "https://g1.globo.com/mg/minas-gerais/noticia/2019/03/20/ipva-2019-em-mg-prazo-para-pagar-3a-parcela-termina-quarta.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3457153", 
+            "top_find_on_new": "Minas Gerais", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Minas Gerais ADM1"
+        }, 
+        {
+            "std_deviation": 0.9155, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 4.1333, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.7432, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 4.5333, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.9155, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 4.1333, 
+            "top_selected_by_user": "Brasil PCLI"
+        }
+    ], 
+    "number_of_voters": 20, 
+    "cronbach": 0.808, 
+    "title": "IPVA 2019 em MG: prazo para pagar 3ª parcela termina quarta "
+}

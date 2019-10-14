@@ -1,0 +1,64 @@
+{
+    "url": "https://g1.globo.com/economia/noticia/2019/03/28/carrefour-cortara-mais-de-1-mil-empregos-na-franca-diz-sindicato.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.7071, 
+            "toponym_geonamesId": "2992090", 
+            "top_find_on_new": "Montreuil", 
+            "mean_confiability": 4.75, 
+            "top_selected_by_user": "Montreuil PPL"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3017382", 
+            "top_find_on_new": "França", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "França PCLI"
+        }, 
+        {
+            "std_deviation": 0.4472, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Regis", 
+            "mean_confiability": 4.2, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.744, 
+            "toponym_geonamesId": "3017382", 
+            "top_find_on_new": "França", 
+            "mean_confiability": 4.625, 
+            "top_selected_by_user": "França PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "6255148", 
+            "top_find_on_new": "Europa", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Europa CONT"
+        }, 
+        {
+            "std_deviation": 1.0593, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Force Ouvriere", 
+            "mean_confiability": 4.3, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 1.0299, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Force Ouvriere", 
+            "mean_confiability": 4.1667, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.7559, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "China", 
+            "mean_confiability": 4.7143, 
+            "top_selected_by_user": "China PCLI"
+        }
+    ], 
+    "number_of_voters": 14, 
+    "cronbach": 0.9644, 
+    "title": "Carrefour cortará mais de 1 mil empregos na França, diz sindicato "
+}

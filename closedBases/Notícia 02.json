@@ -1,0 +1,50 @@
+{
+    "url": "https://g1.globo.com/economia/blog/joao-borges/post/2019/04/10/para-presidente-da-cna-mal-entendido-com-paises-islamicos-e-pagina-virada.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "294640", 
+            "top_find_on_new": "Israel", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Israel PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "281184", 
+            "top_find_on_new": "Jerusalém", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Jerusalém PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 1.1547, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "africanos", 
+            "mean_confiability": 3.6667, 
+            "top_selected_by_user": "Nenhuma"
+        }
+    ], 
+    "number_of_voters": 3, 
+    "cronbach": 0.9914, 
+    "title": "Após jantar com Bolsonaro, CNA diz que 'mal-entendido' com países islâmicos é 'página virada' "
+}

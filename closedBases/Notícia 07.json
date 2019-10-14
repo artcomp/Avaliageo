@@ -1,0 +1,57 @@
+{
+    "url": "https://g1.globo.com/economia/noticia/2019/04/11/eletrobras-anuncia-conclusao-de-venda-da-amazonas-energia.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Amazonas", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Amazonas", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3689982", 
+            "top_find_on_new": "Amazonas", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Amazonas ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Norte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3398713", 
+            "top_find_on_new": "Nordeste", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Grande Região Nordeste RGN"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Amazonas", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Amazonas", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Não é"
+        }
+    ], 
+    "number_of_voters": 6, 
+    "cronbach": 0.9656, 
+    "title": "Eletrobras anuncia conclusão de venda da Amazonas Energia "
+}

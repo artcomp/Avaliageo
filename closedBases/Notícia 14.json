@@ -1,0 +1,64 @@
+{
+    "url": "https://g1.globo.com/to/tocantins/noticia/2019/04/10/justica-federal-bloqueia-bens-do-ex-governador-marcelo-miranda-para-pagar-custos-da-eleicao-suplementar.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.8944, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "G1 Tocantins", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.3015, 
+            "toponym_geonamesId": "3474575", 
+            "top_find_on_new": "Tocantins", 
+            "mean_confiability": 4.0909, 
+            "top_selected_by_user": "Tocantins ADM1"
+        }, 
+        {
+            "std_deviation": 0.3015, 
+            "toponym_geonamesId": "3474575", 
+            "top_find_on_new": "Tocantins", 
+            "mean_confiability": 4.0909, 
+            "top_selected_by_user": "Tocantins ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3474575", 
+            "top_find_on_new": "Tocantins", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Tocantins ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3474575", 
+            "top_find_on_new": "Tocantins", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Tocantins ADM1"
+        }, 
+        {
+            "std_deviation": 0.4671, 
+            "toponym_geonamesId": "3462372", 
+            "top_find_on_new": "Goiás", 
+            "mean_confiability": 4.7273, 
+            "top_selected_by_user": "Goiás ADM1"
+        }, 
+        {
+            "std_deviation": 0.8944, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "G1 Tocantins", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3474575", 
+            "top_find_on_new": "Tocantins", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Tocantins ADM1"
+        }
+    ], 
+    "number_of_voters": 11, 
+    "cronbach": 1.0, 
+    "title": "Justiça Federal bloqueia bens do ex-governador Marcelo Miranda para pagar custos da eleição suplementar "
+}

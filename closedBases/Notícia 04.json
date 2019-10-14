@@ -1,0 +1,29 @@
+{
+    "url": "https://g1.globo.com/economia/noticia/2019/04/10/bce-mantem-politica-monetaria.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 1.5, 
+            "toponym_geonamesId": "2925533", 
+            "top_find_on_new": "Frankfurt", 
+            "mean_confiability": 4.0, 
+            "top_selected_by_user": "Frankfurt am Main PPLA3"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1816670", 
+            "top_find_on_new": "Alemanha", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Pequim PPLC"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "1814991", 
+            "top_find_on_new": "refinanciamento", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "China PCLI"
+        }
+    ], 
+    "number_of_voters": 20, 
+    "cronbach": 0.8425, 
+    "title": "BCE mantém política monetária "
+}

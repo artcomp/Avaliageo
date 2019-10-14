@@ -1,0 +1,36 @@
+{
+    "url": "https://g1.globo.com/economia/tecnologia/noticia/2019/04/10/amazon-libera-ferramentas-da-alexa-para-desenvolvedores-brasileiros.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3469034", 
+            "top_find_on_new": "Brasil", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Brasil PCLI"
+        }, 
+        {
+            "std_deviation": 0.6112, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Philips Hue", 
+            "mean_confiability": 4.7143, 
+            "top_selected_by_user": "Não é"
+        }, 
+        {
+            "std_deviation": 0.6112, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Tuya", 
+            "mean_confiability": 4.7143, 
+            "top_selected_by_user": "Não é"
+        }
+    ], 
+    "number_of_voters": 14, 
+    "cronbach": 1.0, 
+    "title": "Amazon libera ferramentas da Alexa para desenvolvedores brasileiros "
+}

@@ -1,0 +1,57 @@
+{
+    "url": "https://g1.globo.com/mg/minas-gerais/noticia/2019/03/20/camara-de-bh-aprova-em-1o-turno-projeto-que-autoriza-botao-de-panico-em-escolas.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.6667, 
+            "toponym_geonamesId": "3447212", 
+            "top_find_on_new": "Suzano", 
+            "mean_confiability": 4.7778, 
+            "top_selected_by_user": "Suzano PPL"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3447212", 
+            "top_find_on_new": "Suzano", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Suzano PPL"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }
+    ], 
+    "number_of_voters": 9, 
+    "cronbach": 0.88, 
+    "title": "Câmara de BH aprova em 1º turno projeto que autoriza botão de pânico em escolas "
+}

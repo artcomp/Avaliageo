@@ -1,0 +1,43 @@
+{
+    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2019/03/20/verao-2019-foi-o-5o-mais-quente-da-historia-outono-tera-temperaturas-pouco-acima-da-media.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "SP", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448439", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo PPLA"
+        }, 
+        {
+            "std_deviation": 0.9759, 
+            "toponym_geonamesId": "3448439", 
+            "top_find_on_new": "SP", 
+            "mean_confiability": 4.4286, 
+            "top_selected_by_user": "São Paulo PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448433", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo ADM1"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3448439", 
+            "top_find_on_new": "São Paulo", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "São Paulo PPLA"
+        }
+    ], 
+    "number_of_voters": 11, 
+    "cronbach": 0.9803, 
+    "title": "Verão 2019 foi o 5º mais quente da história em SP; outono terá temperaturas pouco acima da média "
+}

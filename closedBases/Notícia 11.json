@@ -1,0 +1,50 @@
+{
+    "url": "https://g1.globo.com/mg/minas-gerais/noticia/2019/03/22/homem-e-suspeito-de-matar-mulher-em-belo-horizonte.ghtml", 
+    "toponyms": [
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Europa", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.3333, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Região", 
+            "mean_confiability": 4.8889, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.5, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Venda Nova", 
+            "mean_confiability": 4.3333, 
+            "top_selected_by_user": "Nenhuma"
+        }, 
+        {
+            "std_deviation": 0.0, 
+            "toponym_geonamesId": "3470127", 
+            "top_find_on_new": "Belo Horizonte", 
+            "mean_confiability": 5.0, 
+            "top_selected_by_user": "Belo Horizonte PPLA"
+        }, 
+        {
+            "std_deviation": 0.5175, 
+            "toponym_geonamesId": "0000000", 
+            "top_find_on_new": "Risoleta", 
+            "mean_confiability": 4.625, 
+            "top_selected_by_user": "Não é"
+        }
+    ], 
+    "number_of_voters": 12, 
+    "cronbach": 0.9855, 
+    "title": "Homem é suspeito de matar mulher em Belo Horizonte "
+}
