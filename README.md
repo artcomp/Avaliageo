@@ -10,6 +10,8 @@ Este sistema foi desenvolvido como trabalho de conclusão de curso no curso de E
 
 O objetivo do projeto sistema é gerar bases de dados geocodificadas a partir de informações geográficas presentes no corpo do texto da notícia. O sistema se divide em duas etapas: coleta de dados dos usuários e validação dos dados obtidos. Para a avaliação da confiabilidade dos dados fornecidos pelos usuários foi utilizado o coeficiente alfa de cronbach.
 
+As bases obtidas durante a execução do projeto encontram-se na pasta `closedBases`.
+
 ### Desenvolvimento
 
   
