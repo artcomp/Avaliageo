@@ -33,15 +33,21 @@ A implementação do sistema está dividida em três partes:
     
 #### Execução
 
-É recomendável prévio conhecimento da estrutura básica dos projetos desenvolvidos com base no framework Flask para a compreensão da implementação.
+É recomendável prévio conhecimento da estrutura dos projetos desenvolvidos com base no framework Flask para a compreensão da implementação.
+
 
 Requisitos : 
  * Python 2.7
+ * Pip
  * Virtualenv
  
 Após a instalação dos requisitos acima, é necessário ativar o ambiente virtual do projeto. Para isso, entre do diretório do projeto e digite o seguinte comando:
  
  > source avaliageo/bin/activate
+ 
+Agora, é necessário instalar as dependências do projeto:
+
+  > pip install -r requirements.txt
  
 Para a execução da primeira parte:
  > python generate_news_data.py
