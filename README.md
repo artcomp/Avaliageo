@@ -8,14 +8,10 @@ Este sistema foi desenvolvido como trabalho de conclusão de curso no curso de E
 
 ## Objetivos
 
-O objetivo do projeto sistema é gerar bases de dados geocodificadas a partir de informações geográficas presentes em notícias do portal de notícias. O sistema se divide em duas etapas: coleta de dados dos usuários e validação dos dados obtidos. Para a avaliação da confiabilidade dos dados fornecidos pelos usuários foi utilizado o coeficiente alfa de cronbach.
+O objetivo do projeto sistema é gerar bases de dados geocodificadas a partir de informações geográficas presentes no corpo do texto da notícia. O sistema se divide em duas etapas: coleta de dados dos usuários e validação dos dados obtidos. Para a avaliação da confiabilidade dos dados fornecidos pelos usuários foi utilizado o coeficiente alfa de cronbach.
 
 ### Desenvolvimento
 
-O sistema divide-se em três partes: 
-  * web scrapping e geração do código web para as notícias (pŕé-processamento)
-  * aplicação principal (sistema web)
-  * validação (processamento dos dados dos usuários)
   
 As tecnologias utilizadas no projeto foram:
   * Servidor
@@ -29,6 +25,31 @@ As tecnologias utilizadas no projeto foram:
     * CSS 3
       * Bootstrap
     * JavaScript
+
+A implementação do sistema está dividida em três partes: 
+  * web scrapping e geração do código web para as notícias (pŕé-processamento)
+  * aplicação principal (sistema web)
+  * validação (processamento dos dados dos usuários)
     
+#### Execução
+
+Requisitos : 
+ * Python 2.7
+ * Virtualenv
+ 
+Após a instalação dos requisitos acima, é necessário ativar o ambiente virtual do projeto. Para isso, entre do diretório do projeto e digite o seguinte comando:
+ 
+ > source avaliageo/bin/activate
+ 
+Para a execução da primeira parte:
+ > python generate_news_data.py
+ 
+Para a segunda, digite : 
+ > python flask_app.py
+ 
+Para a terceira, digite : 
+ > python files.py
+ 
+
 
     
