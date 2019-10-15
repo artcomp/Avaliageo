@@ -60,7 +60,7 @@ Para a segunda, digite :
 Para a terceira, digite : 
  > python files.py
  
- OBS: Para a utilização do firebase foi necessário a utilização de dados pessoais para manter a aplicação. Assim, será necessário criar uma conta no firebase para a aplicação em uma eventual reprodução deste projeto. A única modificação será na no endereço da wallet do firebase no javascript do sistema. 
+
 
 
     
