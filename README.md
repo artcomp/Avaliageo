@@ -35,7 +35,7 @@ A implementação do sistema está dividida em três partes:
     
 #### Execução
 
-É recomendável prévio conhecimento da estrutura dos projetos desenvolvidos com base no framework Flask para a compreensão da implementação.
+É esperado prévio conhecimento da estrutura dos projetos desenvolvidos com base no framework Flask para a compreensão da implementação.
 
 
 Requisitos : 
@@ -61,6 +61,6 @@ Para a terceira, digite :
  > python files.py
  
 
-
+ OBS: Para a utilização do Firebase foi necessário a utilização de dados pessoais(cartão de crédito) para manter a aplicação. Assim, será necessário criar uma conta no firebase para a aplicação em uma eventual reprodução deste projeto. A modificação será na no endereço da resectiva bucket do Firebase.
 
     
